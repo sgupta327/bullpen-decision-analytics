@@ -1,0 +1,53 @@
+{
+  "raw_dir": "data/raw/retrosheet",
+  "out_dir": "data/processed",
+  "warmup_seasons": [
+    2014,
+    2015
+  ],
+  "train_seasons": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "val_seasons": [
+    2023
+  ],
+  "test_seasons": [
+    2024,
+    2025
+  ],
+  "decision_innings": [
+    7,
+    8,
+    9
+  ],
+  "margin_min": -2,
+  "margin_max": 3,
+  "seven_inning_dh_seasons": [
+    2020,
+    2021
+  ],
+  "regular_season_only": true,
+  "pool_lookback_days": 30,
+  "starter_exclusion_days": 4,
+  "position_player_min_pa": 100,
+  "rule_back_to_back": true,
+  "heavy_bf_prev_day": 10,
+  "max_apps_prev4": 2,
+  "rule_pitched_earlier_today": true,
+  "min_available": 2,
+  "prior_season_weights": [
+    0.6,
+    0.3
+  ],
+  "shrink_k": null,
+  "shrink_k_bounds": [
+    50.0,
+    3000.0
+  ]
+}
