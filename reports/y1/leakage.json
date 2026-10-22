@@ -1,0 +1,49 @@
+{
+  "no_outcome_columns_in_features": {
+    "pass": true,
+    "overlap": []
+  },
+  "splits_disjoint_by_game": {
+    "pass": true,
+    "games_by_split": {
+      "train": 15473,
+      "warmup": 4859,
+      "test": 4859,
+      "validation": 2430
+    }
+  },
+  "re_matrix_fit_on_train_only": {
+    "pass": true,
+    "max_diff_vs_train": 0.0,
+    "max_diff_if_validation_included": 0.012531094437882917
+  },
+  "rating_mu_fit_on_train_only": {
+    "pass": true,
+    "mu_recomputed": -0.005662807902679661,
+    "mu_saved": -0.005662807902679661
+  },
+  "ratings_use_only_earlier_dates": {
+    "pass": true,
+    "n": 3000,
+    "max_abs_diff": 2.0816681711721685e-17,
+    "share_where_same_day_data_exists": 0.999
+  },
+  "usage_uses_only_earlier_days": {
+    "pass": true,
+    "n": 3000,
+    "mismatches": {
+      "pitched_d1": 0,
+      "pitched_d2": 0,
+      "bf_d1": 0,
+      "apps_prev4": 0
+    }
+  },
+  "bf_in_game_counts_only_earlier_events": {
+    "pass": true,
+    "mismatches": 0
+  },
+  "target_is_runs_from_this_event_to_end_of_half": {
+    "pass": true,
+    "n": 3000
+  }
+}

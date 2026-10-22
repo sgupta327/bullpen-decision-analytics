@@ -1,0 +1,16 @@
+{
+  "n_sims": 2000,
+  "n_sims_refit": 400,
+  "n_sims_sens": 1000,
+  "refits": 40,
+  "boot": 1000,
+  "seed": 20261022,
+  "recal": true,
+  "reserve_rule": "default",
+  "gap_cuts_from_train": [
+    0.3539615453070404,
+    0.9205276088459844
+  ],
+  "spec_sha256_at_freeze": "9f4171f6ad47c12fa7542252701768736110411a824727517adfe38644aba8a3",
+  "frozen_utc": "2026-10-22T21:38:41Z"
+}
