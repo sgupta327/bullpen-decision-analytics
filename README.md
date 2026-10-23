@@ -83,7 +83,6 @@ See [`REPORT.md`](REPORT.md) for the full evaluation and interpretation.
 * `DATA.md` — sources and data dictionary
 * `REPORT.md` — full research report
 * `configs/` — analysis settings (default and availability-sensitivity configurations)
-* `docs/SPEC.md` — pre-specified analysis plan and change log, frozen before the test seasons are opened
 
 ## Author
 
