@@ -45,7 +45,7 @@ See [`DATA.md`](DATA.md) for data sources, processing decisions, and the data di
 
 ## Model Evaluation
 
-Metrics include log loss (primary), Brier score, calibration intercept and slope, expected calibration error and reliability plots. Every metric and every model-versus-model difference has a 95% interval from a game-clustered bootstrap (1,000 resamples of games). Strategy comparisons include the mean ΔWP across decision points with intervals from game resampling and from run-model refits on resampled training data. They also include Monte Carlo error, pre-specified subgroups (inning, score, base state, rating gap, home/away), assumption tests, and a placebo check that must return zero.
+Metrics include log loss (primary), Brier score, and reliability plots. Strategy comparisons include the mean ΔWP across decision points with intervals from game resampling. 
 
 See [`REPORT.md`](REPORT.md) for the full evaluation and interpretation.
 
